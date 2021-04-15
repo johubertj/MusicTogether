@@ -12,7 +12,7 @@ class Home extends React.Component {
                 </div>
                 <br></br>
                 <div>
-                    <MyButton nameButton="Create Room" paddingTop="10%" linkTo="../createRoom/createRoom.js" />
+                    <MyButton nameButton="Create Room" paddingTop="10%" linkTo="../loginLobby/loginLobby.js" />
 
                     <MyButton nameButton="Join Room" paddingTop="5%" linkTo="../join/join.js" />
                 </div>

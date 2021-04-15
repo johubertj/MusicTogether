@@ -7,7 +7,8 @@ const MyButton = (props) => {
     const classes = useStyles();
     return (
         <div className={classes.centerBtns}>
-            <Button style={{ marginTop: props.paddingTop }} className={classes.root} component={Link} to={props.linkTo} >{props.nameButton}</Button>
+            <Button style={{ marginTop: props.paddingTop }} className={classes.root} component={Link} to={props.linkTo}> {props.nameButton}
+            </Button>
         </div >
 
     )
