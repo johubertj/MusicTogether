@@ -6,12 +6,8 @@ export default makeStyles(() => ({
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-    },
-    test: {
-        fontSize: 100,
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
+        color: "white",
+        paddingTop: 150,
     }
 }));
 

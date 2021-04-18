@@ -60,11 +60,28 @@ const Lobby = (props) => {
     const [search, setSearch] = useState("")
     const [searchResults, setSearchResults] = useState([])
     const [playingTrack, setPlayingTrack] = useState()
+    const [lyrics, setLyrics] = useState();  
 
     function chooseTrack(track) {
         setPlayingTrack(track)
         setSearch("")
+        setLyrics("")
     }
+
+    //hook for lyrics
+    useEffect(() => {
+        if (!playingTrack) return
+
+        axios.get('http://localhost:3001/lyrics', {
+            params: {
+                track: playingTrack.title,
+                aritist: playingTrack.artist
+            }
+        }).then(res => {
+            setLyrics(res.data.lyrics)
+        })
+
+    }, [playingTrack])
 
     useEffect(() => {
         if (!accessToken) return
@@ -102,7 +119,7 @@ const Lobby = (props) => {
     }, [search, accessToken])
 
     return (
-        <div>
+        <div class="player">
             <Box style={{ height: "100vh" }}>
                 <form className={classes.root} noValidate autoComplete="off">
                     <TextField label="Search Song" variant="outlined" value={search}
@@ -117,6 +134,11 @@ const Lobby = (props) => {
                             chooseTrack={chooseTrack}
                         />
                     ))}
+                    {searchResults.length === 0 && (
+                        <div className={classes.root} style={{ whiteSpace: "pre" }}>
+                            {lyrics}
+                        </div>
+                    )}
                 </Box>
 
 
