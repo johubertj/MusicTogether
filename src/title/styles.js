@@ -6,8 +6,8 @@ export default makeStyles(() => ({
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        color: "white",
-        paddingTop: 150,
+        color: "black",
+        marginTop: 250,
     }
 }));
 

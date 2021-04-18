@@ -1,65 +1,44 @@
-.body{
-    background-color: rgb(244, 252, 255);
-    top: 0;
-    background-image: url(../images/banner.jpeg);
-}
-
-.banner {
-    height: 600px;
-    top: 0;
+  * {
+    box-sizing: border-box;
     margin: 0;
-    background-position: center;
-    background-repeat: repeat-x;
-    width: 100%;
-}
+    padding: 0;
+    background-color: #F9F7F1;
+ } 
 
 .title{
     padding: 0;
     margin: 0;
-    /* background-image: url(../images/pngwing.com.png); */
-}
-
-.scroll{
-    margin-bottom: 100px;
 }
 
 .btns{
-    padding: 0;
-    margin: 0;
-    color: white;
-}
-
-.footer{
-    background-color: rgb(240, 228, 228);
-    text-align: center;
-    padding: 10px;
-    margin-top: 40px;
-    color: black;
+    
 }
 
 .belowTitle{
+    margin-top: 5%;
     text-align: center;
-    color: white;
+    color: black;
     font-style: helvetica;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-
-.img{
-    width: 50px; 
-    height: 50px;
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-#firstBelow{
-    padding-top: 4%;
+.left {
+  left: 0;
 }
 
-.player {
-    background-image: url(../images/tree.jpg);
-    background-position: center;
-    background-repeat: repeat-x;
-    background-size: 800px;
+/* Control the right side */
+.right {
+  right: 0;
 }
 
-.result {
-    color: white;
+.rhsImg{
+    height: 50%;
+    margin-top: 20%;
 }
