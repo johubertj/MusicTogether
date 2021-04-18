@@ -38,8 +38,17 @@ const Home = (props) => {
                     <img class="rhsImg" src={logo} alt="Girl Img" />
                 </div>
             </div>
+<<<<<<< HEAD
             
 
+=======
+
+            <div class="split right">
+                <img class="rhsImg" src={logo} alt="Girl Img" />
+            </div>
+
+        
+>>>>>>> c82f8a972c5b4ba29f794aa229d5943353942577
             <div class="footer">
                 <p>Developed by Jacob Jo, Darian Chang, Andrew Ng</p>
             </div>
