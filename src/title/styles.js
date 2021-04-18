@@ -7,7 +7,7 @@ export default makeStyles(() => ({
         justifyContent: "center",
         alignItems: "center",
         color: "black",
-        marginTop: 250,
+        marginTop: "25%",
     }
 }));
 

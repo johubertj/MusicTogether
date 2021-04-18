@@ -3,56 +3,15 @@ import {Box} from "@material-ui/core";
 import TextField from '@material-ui/core/TextField';
 import SpotifyWebApi from "spotify-web-api-node"
 import axios from "axios"
-// import queryString from 'query-string';
-// import io from 'socket.io-client';
 import useStyles from './styles';
 import useAuth from '../useAuth'
 import TrackResult from '../TrackResult/TrackResult'
 import Audio from '../Audio/Audio'
 
-
-let socket;
-
 const spotifyApi = new SpotifyWebApi({
     clientId: "9cc5ff6476344775a9526ff70cf1d3e7",
 })
 const Lobby = (props) => {
-    // const [name, setName] = useState("");
-    // const [room, setRoom] = useState("");
-    // const ENDPOINT = 'localhost:5000';
-
-    // //purpose -> run whenever lobby is rendered 
-    // useEffect(() => {
-    //     const { name, room } = queryString.parse(location.search);
-    //     // console.log(name, room)
-
-    //     socket = io(ENDPOINT);
-
-    //     setName(name);
-    //     setRoom(room);
-    //     socket.on("users", users => {
-    //         setUsers(users);
-    //     });
-
-    //     socket.on("connected", username =>{
-    //         setUsers(users => [...users, username]);
-    //         console.log(users);
-    //     });
-
-    //     socket.on("disconnected", username =>{
-    //     //Creates a new list, filtering out username of person who left
-    //         return users.filter(name => name != username);
-    //     });
-    //     socket.emit('join', { name, room }, () => {
-
-    //     });
-
-    //     return () => {
-    //         socket.emit('disconnect');
-    //         socket.off();
-    //     }
-
-    // }, [ENDPOINT, location.search]);
     //----------------------------------------------spotify
 
     const classes = useStyles();

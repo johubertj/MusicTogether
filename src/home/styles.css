@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #F9F7F1;
+    font-style: helvetica;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
  } 
 
 .title{
@@ -11,17 +12,33 @@
 }
 
 .btns{
-    
+    display : flex;
+    justify-content: center;
+    margin-top : 10%;
+}
+
+.btnOne{
+    margin-top : 13%;
+} 
+
+.btnTwo{
+    margin-top : 10px;
+} 
+
+.centerDescription{
+    display: flex;
+    justify-content: center;
 }
 
 .belowTitle{
     margin-top: 5%;
     text-align: center;
     color: black;
-    font-style: helvetica;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 19px;
+    width: 70%;
 }
 .split {
+    background-color: #F9F7F1;
     height: 100%;
     width: 50%;
     position: fixed;
@@ -40,5 +57,17 @@
 
 .rhsImg{
     height: 50%;
+    
+    width: 70%;
     margin-top: 20%;
+}
+
+.footer{
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 5%;
+    width: 100%;
+    color: black;
+    text-align: center;
 }
