@@ -1,0 +1,65 @@
+.body{
+    background-color: rgb(244, 252, 255);
+    top: 0;
+    background-image: url(../images/banner.jpeg);
+}
+
+.banner {
+    height: 600px;
+    top: 0;
+    margin: 0;
+    background-position: center;
+    background-repeat: repeat-x;
+    width: 100%;
+}
+
+.title{
+    padding: 0;
+    margin: 0;
+    /* background-image: url(../images/pngwing.com.png); */
+}
+
+.scroll{
+    margin-bottom: 100px;
+}
+
+.btns{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.footer{
+    background-color: rgb(240, 228, 228);
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    color: black;
+}
+
+.belowTitle{
+    text-align: center;
+    color: white;
+    font-style: helvetica;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.img{
+    width: 50px; 
+    height: 50px;
+}
+
+#firstBelow{
+    padding-top: 4%;
+}
+
+.player {
+    background-image: url(../images/tree.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: 800px;
+}
+
+.result {
+    color: white;
+}

@@ -10,7 +10,7 @@ export default function TrackSearchResult(props) {
 
     return (
 
-        <Box>
+        <Box class="result">
             <Grid container spacing={3} style={{ cursor: "pointer" }} onClick={PlaySong}>
                 <Grid item xs={0} style={{ display: "flex", flexDirection: "row-reverse"}} >
                     <Typography variant="b1">
