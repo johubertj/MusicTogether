@@ -1,0 +1,17 @@
+.centerBtns{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.teamImg {
+    align-items: center;
+    height: 250px;
+    width: auto;
+    margin-top: 10%;
+}
+
+.centerImg{
+    display: flex;
+    justify-content: center;
+}
