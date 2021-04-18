@@ -10,6 +10,7 @@ import useAuth from '../useAuth'
 import TrackResult from '../TrackResult/TrackResult'
 import Audio from '../Audio/Audio'
 
+
 let socket;
 
 const spotifyApi = new SpotifyWebApi({
