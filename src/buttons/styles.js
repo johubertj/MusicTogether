@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles(() => ({
     root: {
         background: '#F2C4CE',
-        //background: 'blue',0000FF FE6B8B 0070FF
         border: 0,
         borderRadius: 3,
         height: 50,

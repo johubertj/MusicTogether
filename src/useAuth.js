@@ -15,7 +15,6 @@ export default function useAuth(code) {
                 setAccessToken(res.data.accessToken)
                 setRefreshToken(res.data.refreshToken)
                 setExpiresIn(res.data.expiresIn)
-                // window.history.pushState({}, "/loginLobby/loginLobby.js")
             })
             .catch((error) => {
                 window.location = "/loginLobby/loginLobby.js"
