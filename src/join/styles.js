@@ -10,7 +10,16 @@ export default makeStyles((theme) => ({
         justifyContent: "center",
         alignItems: "center",
         textdecoration: "none",
+    },
+    teamImg: {
+        alignItems: "center",
+        height: "250px",
+        width: "auto",
+        marginTop: "10%",
+    },
+    
+    centerImg: {
+        display: "flex",
+        justifyContent: "center",
     }
 }));
-
-

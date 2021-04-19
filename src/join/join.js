@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import TextField from '@material-ui/core/TextField';
 import MyButton from '../buttons/buttons';
 import useStyles from './styles';
+import logo from '../images/login2.svg';
 
 const Join = () => {
     const classes = useStyles();
@@ -10,6 +11,10 @@ const Join = () => {
 
     return (
         <div >
+            <div className = {classes.centerImg}>
+                <img className ={classes.teamImg} src={logo} alt="Team Img" />
+            </div>
+            <br />
             <form noValidate autoComplete="off" className={classes.root}>
                 <TextField id="outlined-basic" size="small" label="Your Name" variant="outlined" onChange={(event) => setName(event.target.value)} />
             </form>

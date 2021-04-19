@@ -4,16 +4,13 @@ import './styles.css';
 import logo from '../images/girl.svg';
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-//import useMediaQuery from '@material-ui/core/useMediaQuery';
-
-
+import Grid from '@material-ui/core/Grid';
 
 const Home = (props) => {
-    //const isActive = useMediaQuery("(min-width: 900px)")
     return (
         <div class="wrapper" >
-            <div class = "content">
-                <div class="split left">
+            <Grid container>
+                <Grid item xs={12} md={6}>
                     <div class="title">
                         <Title />
                     </div>
@@ -32,26 +29,18 @@ const Home = (props) => {
                             <p>Join Room</p>
                         </Button>
                     </div>
-                </div>
-
-                <div class="split right">
+                </Grid>
+                
+                <Grid item xs={12} md={6}>
                     <img class="rhsImg" src={logo} alt="Girl Img" />
-                </div>
-            </div>
-<<<<<<< HEAD
-            
+                </Grid>
 
-=======
+                <Grid item class="footer" xs={12}>
+                    <p>Developed by Jacob Jo, Darian Chang, Andrew Ng</p>
+                </Grid>
+            </Grid>
 
-            <div class="split right">
-                <img class="rhsImg" src={logo} alt="Girl Img" />
-            </div>
 
-        
->>>>>>> c82f8a972c5b4ba29f794aa229d5943353942577
-            <div class="footer">
-                <p>Developed by Jacob Jo, Darian Chang, Andrew Ng</p>
-            </div>
         </div>
 
         
