@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import './styles.css';
 
 const AUTH_URL =
-    "https://accounts.spotify.com/authorize?client_id=9cc5ff6476344775a9526ff70cf1d3e7&response_type=code&redirect_uri=http://localhost/loginLobby/loginLobby.js&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state"
+    "https://accounts.spotify.com/authorize?client_id=9cc5ff6476344775a9526ff70cf1d3e7&response_type=code&redirect_uri=https://main.d1e48j9cg55p31.amplifyapp.com/loginLobby/loginLobby.js&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state"
 
 export default function Login() {
 
