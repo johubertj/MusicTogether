@@ -4,6 +4,6 @@
 
 Project Goal -> Listen to music and sing along with your friends utilizing the Spotify Web API and Lyrics API
 
-Learning Goal -> Our learning goal for our frontend was to learn how to use React and Material UI. Addtionally, our learning goal for our backend was to learn how we could connect with different API's and display that information to the frontend of our application.
+Learning Goal -> For the frontend our learning goal was to learn how to use React and Material UI. Addtionally, for the backend our learning goal was to learn how we could connect with different API's and display that information to the frontend of our application.
 
 Developed by Jacob Jo, Darian Chang, Andrew Ng
