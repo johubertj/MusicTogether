@@ -1,6 +1,6 @@
 # DEMO
 
-![MusicTogether](https://user-images.githubusercontent.com/47648260/117121098-03a07f80-ad49-11eb-8820-b62edae54995.gif)
+![Animation](https://user-images.githubusercontent.com/47648260/117124463-351b4a00-ad4d-11eb-84f4-1265ec86fde7.gif)
 
 Project Goal -> Listen to music and sing along with your friends utilizing the Spotify Web API and Lyrics API
 
